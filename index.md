@@ -1,8 +1,18 @@
 ---
-layout: home
+layout: page
 title: Home
+permalink: /
 ---
 
-# Welcome to My Website
+# My Name
+Welcome to my personal website.
 
-Here's some introductory text about my site.
+[Home](/) | [About Me](/about)
+
+## Introduction
+This is where you'll write a brief introduction about yourself.
+
+<!-- Contact info -->
+<div style="position: absolute; bottom: 0; right: 0;">
+  Email: your.email@example.com
+</div>
