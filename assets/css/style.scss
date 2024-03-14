@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-footer {
+  background-color: #f8f9fa; /* Light grey background, adjust as needed */
+  text-align: center; /* Centers the footer content */
+  padding: 20px 0; /* Adds padding above and below the footer content */
+  position: relative; /* Adjusts based on the layout flow, or use 'fixed' to keep it at the bottom */
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  margin-bottom: 60px; /* Adds a margin at the bottom of the body to ensure content isn't hidden by the footer */
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* Your existing background gradient */
+}
