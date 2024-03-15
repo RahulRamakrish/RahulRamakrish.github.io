@@ -1,36 +1,25 @@
 <nav>
-  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
-    Home
-  </a>
-  <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>
-    About me
-  </a>
+    <ul>
+        <li><a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a></li>
+        <li><a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>About me</a></li>
+    </ul>
 </nav>
 
-<style>
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        right: 0;
-    }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 14px 16px;
+}
 
-    nav li {
-        float: left;
-    }
+nav a {
+    text-decoration: none;
+    color: black; /* Default color */
+    padding: 0 15px; /* Adjust as needed */
+}
 
-    nav li a {
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    /* Additional styling for navigation links */
-    nav li a:hover {
-        background-color: #ddd;
-    }
-</style>
+nav a:hover {
+    background-color: #ddd;
+}
