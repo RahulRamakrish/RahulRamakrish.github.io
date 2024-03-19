@@ -4,10 +4,15 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
+  <style>
+    body {
+      background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}');
+      background-size: cover; /* Ensure it covers the entire page */
+      background-position: center; /* Center the background image */
+    }
+  </style>
     {% endif %}
+  <header class="masthead">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
