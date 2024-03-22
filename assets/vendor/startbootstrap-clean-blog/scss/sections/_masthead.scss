@@ -3,7 +3,7 @@ header.masthead {
     // TIP: Background images are set within the HTML using inline CSS!
     margin-bottom: 10px;
     background: no-repeat center center;
-    background-color: #000000;
+    background-color: transparent;
     background-attachment: scroll;
     position: relative;
     background-size: cover;
@@ -17,7 +17,7 @@ header.masthead {
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #000000;
+        background-color: transparent;
         opacity: 0;
     }
 
