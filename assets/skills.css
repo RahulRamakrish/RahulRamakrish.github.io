@@ -1,0 +1,21 @@
+/* style.css content */
+.skills-overview .skill-category {
+    margin-bottom: 20px;
+}
+
+.skills-overview .skill-category h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+.skills-overview .skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-overview .skill-list li {
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
