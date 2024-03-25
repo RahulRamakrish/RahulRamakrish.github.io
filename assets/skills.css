@@ -4,7 +4,7 @@
 }
 
 .skills-overview .skill-category h3 {
-    color: #333;
+    color: #444444;
     font-size: 18px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .skills-overview .skill-list li {
-    background-color: #f0f0f0;
+    background-color: #000000;
     margin-bottom: 5px;
     padding: 5px;
     border-radius: 5px;
