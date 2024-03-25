@@ -19,3 +19,20 @@
     padding: 5px;
     border-radius: 5px;
 }
+.certification-item ul {
+  list-style-type: disc; /* Or 'circle', 'square', etc., depending on preference */
+  padding-left: 20px; /* Adjust as needed for alignment */
+}
+
+.certification-item li {
+  margin-bottom: 5px; /* Space between list items */
+}
+
+.certification-item a {
+  color: rgb(0, 255, 255); /* Adjust the color to fit your page's theme */
+  text-decoration: none; /* Optional: removes underline from links */
+}
+
+.certification-item a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover for better link visibility */
+}
